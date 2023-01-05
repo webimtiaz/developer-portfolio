@@ -78,7 +78,8 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
- section {
+
+section {
     margin-top: 130px;
 }
 
@@ -104,47 +105,84 @@ main {
     font-size: 18px;
     margin-bottom: 30px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about .info-titel{
+
+.about .info-titel {
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
 }
 
-.section-titel{
+.section-titel {
     text-align: center;
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 30px;
 }
-.skills-container{
+
+.skills-container {
     display: flex;
     gap: 24px;
 }
-.skills{
+
+.skills {
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
 }
 
-.skill-titel{
+.skill-titel {
     font-weight: 700;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.skill-description{
+
+.skill-description {
     color: #474747;
+
 }
-.resume{
+
+/* .resume-titel {
     text-align: center;
-    
+
+} */
+
+.resume-containt {
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .titel {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume .sub-titel {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+}
+.resume-button{
+    margin-top: 30px;
+    text-align: center;
 }
